@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url(png-transparent-logo-amazon-com-brand-flipkart-others-text-orange-logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.border{
+    border: 2px solid transparent;
+    border-radius: 10%;
+    padding: 4px;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.search-border{
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+
+.search-border:active{
+    border: 2px solid #F3A847;
+
+}
+.add-icon{
+    display: flex;
+    
+}
+.addfirst{
+    color:#cccccc ;
+    font-size: 12px;
+    margin-left: 13px;
+}
+.add{
+    color: white;
+    font-size: 14px;
+}
+.nav-search{
+    display: flex;
+    height: 40px;
+    width: 650px;
+}
+.search-select{
+    height: 40px;
+    width: 50px;
+    font-size: 14px;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+.search-input{
+    height: 37px;
+    width: 550px;
+    font-size: 15px
+}
+.search-icon{
+    height: 40px;
+    width: 45px;
+    background-color: #F3A847;
+    border: 0;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signfirst{
+    color:#cccccc ;
+    font-size: 12px;
+}
+.signsecond{
+    font-weight: 700;
+    font-size: 14px
+}
+.cart-a{
+    font-size: 14px;
+    font-weight: 700;
+}
+.borders{
+    border: 2px solid transparent;
+    border-radius: 5%;
+
+}
+.borders:hover{
+    border: 2px solid white;
+
+}
+.ribbon{
+    background-color: #232F3E;
+    display: flex;
+    height: 40px;
+    display: flex;
+    align-items: center;
+
+}
+.ribbon-drop{
+    width: 60px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    
+}
+.ribbon-logo{
+    margin: 5px;
+}
+.ribbon-content{
+    display: flex;
+    color: white;
+    font-size: 14px;
+    margin: 5px;
+    
+}
+
+.herosection{
+    height: 300px;
+    background-color: aqua;
+    background-image: url(hero\ image.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.herosection-content{
+    height: 40px;
+    width: 97%;
+    background-color: #F5F6F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+.herocontent{
+    text-decoration: none;
+    color: #007185;
+}
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #cccccc;
+}
+
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 5px;
+    
+}
+.box-img{
+    height: 85%;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-repeat: no-repeat;
+    
+}
+br{
+    background-color: #cccccc;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.signin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 130px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+.signin-title{
+    font-size: 13px;
+}
+.signin-button{
+    display: flex;
+    height: 38px;
+    width: 230px;
+    border: 1px solid #000000;
+    background-color: #F3A847;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.end{
+    height: 40px;
+    background-color: #232F3E;
+    color: white;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
